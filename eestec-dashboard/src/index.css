@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .font-sans{
     font-family: 'Roboto', sans-serif;
 }
+
