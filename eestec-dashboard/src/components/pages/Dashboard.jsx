@@ -12,7 +12,7 @@ function Dashboard() {
   let w3 = "Lorem Ipsum..."
   return (
     <>
-    <div>
+    <div> 
       <div className="absolute max-w-3xl w-full h-44 left-72 top-11 bg-white drop-shadow-2xl rounded-2xl">
         <div className="absolute top-7 w-30 h-10 left-5 font-basic font-normal text-3xl leading-10 ">Welcome back, {name}</div>
         <div className="absolute w-56 h-2 top-32 left-5">{date}</div>
@@ -32,11 +32,11 @@ function Dashboard() {
         </div>
         <div className="absolute w-16 h-4 right-5 top-7 underline">
           <a href="/news">View all</a></div>
-     
-      
-      
-      
-      </div>
+     </div>
+     <div className="fixed right-0 inset-y-64 h-screen overflow-hidden flex justify-center max-w-md bg-white drop-shadow-2xl rounded-xl w-full ">
+        <div className="bg-gray-500 max-w-sm w-full flex justify-center items-center h-64 mt-10 rounded-2xl ">Calendar</div>
+        
+     </div>
       </div>
 
     </>
