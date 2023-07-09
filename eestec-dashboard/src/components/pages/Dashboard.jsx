@@ -5,7 +5,7 @@ import Weekly from './News/weekly';
 import International from './News/International';
 
 function Dashboard() {
-  const theme = useContext(ThemeContext)
+  const theme = useContext(ThemeContext) //IASO
   let date = "April 3rd, 2023, Monday";
   let name = 'John'
   let userPhoto = "src\\assets\\1.png" //ΘΕΛΕΙ ΔΙΠΛΟ / ΓΙΑ ΝΑ ΓΙΝΕΙ ΕSCAPED
