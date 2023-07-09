@@ -19,7 +19,7 @@ const Sidebar = () => {
 </svg>
             <a href='/'>
               <li className='ml-3'>
-                Dashboard
+                Dashboard 
               </li>
             </a>
           </div>
