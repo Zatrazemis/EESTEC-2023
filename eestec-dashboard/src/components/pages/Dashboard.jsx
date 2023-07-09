@@ -33,7 +33,7 @@ function Dashboard() {
         <div className="absolute w-96 h-20 left-8 rounded-xl bg-gray-300 text-xl font-semibold text-center top-96">{event1}</div>
         <div className="absolute w-96 h-20 left-8 rounded-xl bg-gray-300 text-xl font-semibold text-center top-[485px]">{event2}</div>
         <div className="absolute w-48 h-6 top-[600px]  left-8 text-xl font-bold ">Uncompleted Tasks</div>
-        <div className="absolute bg-gray-300 max-w-sm w-full text-3xl leading-loose items-center h-48 top-[640px] text-center rounded-2xl ">
+        <div className="absolute bg-gray-300 max-w-sm w-full text-3xl leading-loose items-center h-48 top-[640px] text-center rounded-2xl "> 
           <ul>
             <li>{task1}</li>
             <li>{task2}</li>
@@ -41,7 +41,7 @@ function Dashboard() {
           </ul>
         </div>
      </div>
-      </div>
+      </div>//precise pixels
 
     </>
   )
