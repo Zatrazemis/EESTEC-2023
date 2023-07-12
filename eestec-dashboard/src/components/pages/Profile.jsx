@@ -23,7 +23,7 @@ function Profile() {
 
   return (
     <>
-    <h1 className="w-{343} h-{64} t-{89} l-{337}">Kanban-Board</h1>
+    <h1 className="absolute top-[75px] left-[312px] ">Kanban-Board</h1>
     <div className="absolute  w-[333px] h-[750px] left-[312px] top-[201px] bg-white drop-shadow-2xl 
                     rounded-2xl   flex flex-col">
       <h2 className="font-bold underline">To-do</h2>
