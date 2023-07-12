@@ -3,6 +3,7 @@ import { theme } from '../../theme'
 import { ThemeContext } from '../../App'
 
 export default function ProfileComp(){
+  let toDo1="Lorem ipsum..." //Allaxa ayto kai to phra apo to Profile.jsx
     return(
         <>
         <div className="bg-yellow-100  w-[269px] h-[95px] ml-6 my-20 rounded-[25px] 

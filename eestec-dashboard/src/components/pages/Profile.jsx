@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { theme } from '../../theme' 
 import { ThemeContext } from '../../App'
-import ProfileComp from './/pages/ProfileComp'
+import ProfileComp from './ProfileComp'
 
 
 function Profile() {
