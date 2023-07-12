@@ -4,7 +4,7 @@ import { ThemeContext } from '../App';
 const Sidebar = () => {
   const theme = useContext(ThemeContext);
   return (
-    <div className="w-full lg:block lg:w-60 bg-sidebar  h-screen static overflow-hidden rounded-tr-xl rounded-br-xl">
+    <div className="w-full lg:block lg:w-60 bg-sidebar  h-screen fixed overflow-hidden rounded-tr-xl rounded-br-xl">
       <div className='w-44 ml-7 mb-10'>
         <a href='#'>
           <img src="src\assets\LC_Thessaloniki_white.png" alt="" />
