@@ -10,3 +10,27 @@
 .container::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width: 1515px) {
+    .lg\:block {
+      display: none;
+    }
+  }
+  
+  body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Hide scrollbars */
+  }
+  

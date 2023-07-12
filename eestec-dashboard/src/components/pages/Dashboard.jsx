@@ -27,7 +27,7 @@ function Dashboard() {
       </div>
       <Weekly />
       <International /> 
-     <div className="fixed flex right-0 inset-y-28 h-screen overflow-hidden flex justify-center max-w-md bg-white shadow-2xl rounded-2xl w-full ">
+     <div className="fixed flex right-0 inset-y-[87px] h-screen overflow-hidden flex justify-center max-w-md bg-white shadow-2xl rounded-2xl w-full ">
         <div className="bg-gray-300 max-w-sm w-full flex justify-center items-center h-64 mt-10 rounded-2xl ">Calendar</div>
         <div className="absolute w-44 h-6 top-80  left-8 text-xl font-bold ">Upcoming Events</div>
         <div className="absolute w-96 h-20 left-8 rounded-xl bg-gray-300 text-xl font-semibold text-center top-96">{event1}</div>
@@ -41,7 +41,7 @@ function Dashboard() {
           </ul>
         </div>
      </div>
-      </div>//precise pixels
+      </div>
 
     </>
   )
