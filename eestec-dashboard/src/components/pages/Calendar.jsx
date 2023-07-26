@@ -15,7 +15,7 @@ function Calendar() {
     },
   ];
   return (
-    <div>
+    <div style={{ width: "170vh",margin: "40vh", marginTop: "-85vh"}}>
       <Fullcalendar
         plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
         initialView={"dayGridMonth"}
@@ -24,8 +24,7 @@ function Calendar() {
           center: "title",
           end: "dayGridMonth,timeGridWeek,timeGridDay", 
         }}
-        height={"90vh"}
-        width={"10vh"}
+        height={"83vh"}
         events={events}
         eventDidMount={(info) => {
           return new bootstrap.Popover(info.el, {
@@ -40,7 +39,7 @@ function Calendar() {
           });
         }}
       />
-    </div>
+      </div>
   );
 }
 
