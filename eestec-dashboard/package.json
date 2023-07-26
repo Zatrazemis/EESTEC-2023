@@ -14,10 +14,13 @@
     "@mui/material": "^5.12.3",
     "@testing-library/react": "^14.0.0",
     "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
     "expressjs": "^1.0.1",
+    "fullcalendar": "^6.1.8",
     "graphql": "^16.6.0",
     "mongodb": "^5.4.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "redux": "^4.2.1"
@@ -28,7 +31,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^2.1.3",
     "tailwindcss": "^3.3.1",
     "vite": "^4.2.0"
   },
