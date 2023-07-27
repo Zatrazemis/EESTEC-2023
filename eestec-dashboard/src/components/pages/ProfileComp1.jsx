@@ -12,11 +12,16 @@ export default function ProfileComp1(){
   let toDo4="Lorem ipsum..."
 
   const [isChecked, setIsChecked] = React.useState({
-    ischecked: false
+    ischecked: false,
+    text: " "
   })
+
+  
 
   function handleChange(event) {
     const {name, value, type, checked} = event.target
+    console.log(isChecked.text)
+    // event.preventDefault() Αν υπάρχει, πρεπει να κανω διπλο κλικ στο checkbox
     setIsChecked(prevFormData => {
         return {
             ...prevFormData,
@@ -33,9 +38,15 @@ export default function ProfileComp1(){
                   id="ischecked" 
                   checked={isChecked.ischecked}
                   onChange={handleChange}
-                  name="ischecked"/>
+                  name="ischecked"
+                  value={isChecked.ischecked}/>
          
-          <input type="text" placeholder={toDo1} className="ml-4 bg-blue-100 rounded-[5px] w-[200px] h-[35px] " />
+          {/* <input type="text" placeholder={toDo1} className="ml-4 bg-blue-100 rounded-[5px] w-[200px] h-[35px] " /> */}
+          <textarea  className="ml-4 bg-blue-100 rounded-[5px] w-[200px] h-[35px] "
+                      // placeholder={toDo1}
+                      value={isChecked.text}
+                      name="text"
+                      onChange={handleChange}/>
         </div>
       </>
     )

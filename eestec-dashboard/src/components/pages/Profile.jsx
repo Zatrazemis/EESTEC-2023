@@ -8,8 +8,24 @@ import ProfileComp3 from './ProfileComp3'
 function Profile() {
 
   const theme = useContext(ThemeContext)
+
+  const [comp,setComp]=React.useState({
+    isClicked: false
+  })
   
-  
+  function click(){
+    console.log("clicked")
+
+    setComp(prevComp =>( {
+          ...prevComp,
+          isClicked: !comp.isClicked
+    }))
+    
+    return (
+      (comp.isClicked && <ProfileComp1/>)
+    )
+
+  }
 
   return (
     <>
@@ -18,6 +34,11 @@ function Profile() {
       <div className="absolute  w-[333px] h-[750px] left-[312px] top-[201px] bg-white drop-shadow-2xl 
                       rounded-2xl   flex flex-col items-center">
         <h2 className="font-bold underline mb-16 text-[24px] ">To-do</h2>
+
+        <button className="border-4 border-black rounded-2xl p-2 -mt-8 mb-4 " 
+                  onClick={click}>
+                    More Text
+        </button>
 
         <ProfileComp1/>
         <ProfileComp1/>
