@@ -2,12 +2,13 @@ import React from 'react'
 let number = 10;
 let title = "TITLE";
 let content = "CONTENT";
+let weekly1 = "Weekly"
 
 function News() {
   return (
     <>
     <div>
-      <div className="w-[704px] h-[830px] top-[117px] rounded-[25px] bg-white shadow-2xl flex fixed left-[336px]">
+      <div className="w-[704px] h-[830px] top-[117px] rounded-[25px] bg-white shadow-2xl flex justify-center items-center fixed left-[336px]">
         <div className="absolute top-[25px] text-2xl left-[32px] font-bold">Weekly News #{number}</div> 
         <div className="absolute top-[70px] w-[650px] left-[27px] flex justify-center items-center rounded-[25px] h-[87px] bg-orange ">
           <div className="absolute font-bold text-2xl h-[45px] text-white ">{title}</div>
@@ -27,10 +28,31 @@ function News() {
 </svg>
 
         </div>
-
+        
+       
+        
       </div>
 
+    <div className="absolute  w-[400px] h-[878px] shadow-2xl bg-white rounded-[25px] right-0 top-[168px] ">
+
+    <div className="text-2xl font-bold p-4">
+        Archive
+        </div>
+
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple'>{weekly1}</div>
+    <div className='w-[365px]  rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple'>{weekly1}</div>
+    
     </div>
+
+
+
+
+
+    </div>
+
+
+
+
     </>
   )
 }
