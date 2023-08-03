@@ -39,8 +39,22 @@ function News() {
         Archive
         </div>
 
+    <div className='absolute '>
     <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple'>{weekly1}</div>
-    <div className='w-[365px]  rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-orange mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-pink mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-orange mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-pink mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-orange mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-pink mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-orange mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-pink mt-5'>{weekly1}</div>
+    <div className='w-[365px] rounded-[25px] text-white flex justify-center items-center h-[35px] bg-purple mt-5'>{weekly1}</div>
+    </div>
+    
     
     </div>
 
