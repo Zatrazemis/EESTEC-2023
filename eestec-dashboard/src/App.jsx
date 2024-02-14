@@ -19,11 +19,11 @@ const App = () => {
     <Topbar />
     <Sidebar />
     <Routes>
-    <Route path="/" element={Dashboard} />
-    <Route path="/profile" element={Profile} />
-    <Route path="/team" element={Team} />
-    <Route path="/news" element={News} />
-    <Route path="/calendar" element={Calendar} />
+    <Route path="/" element={<Dashboard />} />
+    <Route path="/profile" element={<Profile />} />
+    <Route path="/team" element={<Team />} />
+    <Route path="/news" element={<News />} />
+    <Route path="/calendar" element={<Calendar />} />
     </Routes>
     </ThemeContext.Provider>
     </>
